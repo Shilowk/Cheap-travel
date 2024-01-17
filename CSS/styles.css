@@ -1,0 +1,334 @@
+@font-face{
+    font-family: 'YourFont';
+    src: url('TrumpGothicPro.woff');
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Source Sans 3', sans-serif;
+
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(../Images/cover.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed
+}
+
+.aboutheader{
+    width: 100%;
+    height: 90vh;
+    background: url(../Images/aboutCover2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed
+}
+
+.logo{
+    position: fixed;
+    float: left;
+    margin: 6px 50px;
+
+}
+
+nav{
+    background-color: rgba(0,0,0,0);
+    position: fixed;
+    width: 100%;
+    transition: background-color 0.5s;
+}
+
+.sticky {
+    background-color: #fcfcfc;
+    color: black;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.changing-link {
+    color: #ffffff;
+    transition: color 0.5s ease;
+
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav ul li a:hover {
+    color: grey;
+
+}
+
+#title{
+    font-family: 'YourFont', sans-serif;
+    font-size: 100px;
+    color: white;
+    margin: 0;
+    text-align: center;
+    padding-top: 300px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+#littleTitle{
+    font-family: 'Heebo', sans-serif;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 0;
+}
+
+section{
+    margin-top: 120px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#signup{
+    width: 150px;
+    height: 65px;
+    font-size: 12px;
+    font-family: 'Heebo', sans-serif;
+    border: none;
+    border-radius: 2px;
+    text-decoration: none;
+    color: grey;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#signup:hover {
+    background-color: rgba(255, 255, 255, 0.656);
+}
+
+p{
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+
+hr{
+    width: 40%;
+    
+}
+
+.intro{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+
+}
+
+.introImage{
+    width: 40%;
+    
+}
+
+.text{
+    width: 60%;
+}
+
+.heading{
+    font-family: 'YourFont', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 45px;
+    margin: 0;
+    letter-spacing: 2px;
+
+}
+
+.heading2{
+    font-family: 'YourFont', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 60px;
+    margin: 0;
+    letter-spacing: 5px;
+    color: white;
+    text-align: center;
+}
+
+.littleHeading{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    font-family: 'heebo', sans-serif;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin: 2px;
+}
+
+.aboutButton{
+    width: 150px;
+    height: 50px;
+    border: 2px solid #ff9b43;
+    font-family: 'heebo', sans-serif;
+    text-transform: uppercase;
+    background-color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    color: #FF7900;
+    border-radius: 3px;
+}
+
+.aboutButton:hover{
+    border: none;
+    background-color: #FF7900;
+    color: white;
+}
+
+.destinationCover{
+    width: 100%;
+    height: 80vh;
+    background: url(../Images/destCover.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.text1{
+    padding-top: 200px;
+}
+
+#destButton{
+    width: 150px;
+    height: 75px;
+    font-family: 'heebo', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    color: grey;
+    border-radius: 2px;
+}
+
+#destButton:hover{
+    background-color: rgba(255, 255, 255, 0.725);
+}
+
+.tipsection{
+    height: 60vh;
+    display: flex;
+}
+
+.tipImage{
+    width: 40%;
+}
+
+.text2{
+    width: 60%;
+}
+
+.image{
+    border-radius: 3px;
+
+}
+
+footer {
+    background-color: #fcfcfc;
+    color: white;
+    box-shadow: 2px 0px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.footerContent {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.footerLogo img {
+    width: 150px;
+    height: auto;
+}
+
+.footerSubscribe {
+    width: 400px;
+}
+
+.footerSubscribe h3 {
+    color: #FF7900; /* Change to your preferred color */
+    font-family: 'heebo', sans-serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.footerSubscribe form {
+    display: flex;
+    margin-top: 10px;
+}
+
+.footerSubscribe input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+
+.footerSubscribe button {
+    background-color: white;
+    color: #FF7900;
+    padding: 10px;
+    border: solid 2px #FF7900;
+    border-radius: 2px;
+}
+
+.footerSubscribe button:hover {
+    background-color: #FF7900;
+    color: white;
+}
+
+.footerSocial {
+    margin-top: 60px;
+}
+
+.socialIcon img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.footerText {
+    background-color: #f6f5f5;
+    padding: 1px;
+}
+
+.footerText p {
+    text-align: center;
+    color: #000000f1;
+    font-size: 18px;
+
+}
+button{
+    cursor: pointer;
+}
