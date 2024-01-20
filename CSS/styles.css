@@ -332,3 +332,7 @@ footer {
 button{
     cursor: pointer;
 }
+
+.space{
+    margin-top: 120px;
+}
