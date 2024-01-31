@@ -142,18 +142,18 @@ hr{
 .intro{
     width: 100%;
     height: 60vh;
-    display: flex;
-    flex-direction: row;
 
 }
 
 .introImage{
     width: 40%;
+    display: inline-block;
     
 }
 
 .text{
-    width: 60%;
+    width: 50%;
+    display: inline-block;
 }
 
 .heading{
@@ -235,16 +235,18 @@ hr{
 }
 
 .tipsection{
+    width: 100%;
     height: 60vh;
-    display: flex;
 }
 
 .tipImage{
     width: 40%;
+    display: inline-block;
 }
 
 .text2{
-    width: 60%;
+    width: 50%;
+    display: inline-block;
 }
 
 .image{
@@ -334,12 +336,94 @@ button{
     cursor: pointer;
 }
 
-.space{
+.space{ 
     margin-top: 120px;
 }
 
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
+@media (max-width: 1350px) {
+    header {
+        height: 70vh;
     }
-  }
+
+    .intro {
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .introImage,
+    .text {
+        width: 100%;
+    }
+    .tipsection {
+        height: auto;
+        margin-bottom: 100px;
+
+    }
+
+    .tipImage,
+    .text2 {
+        width: 100%;
+    }
+
+    #title {
+        font-size: 50px;
+        padding-top: 150px;
+    }
+
+    #littleTitle {
+        font-size: 12px;
+    }
+
+    .aboutButton,
+    #signup,
+    #destButton {
+        width: 120px;
+        height: 40px;
+        font-size: 10px;
+    }
+
+    .heading {
+        font-size: 30px;
+    }
+
+    .heading2 {
+        font-size: 40px;
+    }
+
+    .littleHeading {
+        font-size: 14px;
+    }
+
+    .footerContent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerSubscribe {
+        width: 100%;
+    }
+
+    .footerSubscribe h3 {
+        font-size: 16px;
+    }
+
+    .footerSubscribe input {
+        flex: 1;
+        padding: 8px;
+    }
+
+    .footerSubscribe button {
+        padding: 8px;
+    }
+
+    .socialIcon img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .footerText p {
+        font-size: 14px;
+    }
+}
+
+
