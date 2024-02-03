@@ -94,7 +94,7 @@ nav ul li a:hover {
 
 }
 
-#title{
+.title{
     font-family: 'YourFont', sans-serif;
     font-size: 100px;
     color: white;
@@ -105,7 +105,7 @@ nav ul li a:hover {
     letter-spacing: 10px;
 }
 
-#littleTitle{
+.littleTitle{
     font-family: 'Heebo', sans-serif;
     font-size: 15px;
     color: white;
@@ -118,7 +118,7 @@ nav ul li a:hover {
 section{
     margin-top: 120px;
     margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 80px;
 }
 
 #signup{
@@ -197,7 +197,7 @@ hr{
     margin: 2px;
 }
 
-.aboutButton{
+.Button{
     width: 150px;
     height: 50px;
     border: 2px solid #ff9b43;
@@ -209,7 +209,7 @@ hr{
     border-radius: 3px;
 }
 
-.aboutButton:hover{
+.Button:hover{
     border: none;
     background-color: #FF7900;
     color: white;
@@ -350,6 +350,95 @@ button{
     margin-top: 120px;
 }
 
+.dest1{
+    width: 100%;
+    margin-bottom: 5vh;
+}
+
+.destimg{
+    width: 300px;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.desttext{
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.dest2{
+    width: 100%;
+    margin-bottom: 5vh;
+}
+
+.destimg2{
+    width: 300px;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.desttext2{
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.dest3{
+    width: 100%;
+    margin-bottom: 5vh;
+}
+
+.destimg3{
+    width: 300px;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.desttext3{
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+
+}
+.dest4{
+    width: 100%;
+    margin-bottom: 5vh;
+}
+
+.destimg4{
+    width: 300px;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.desttext4{
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.dest5{
+    width: 100%;
+    margin-bottom: 5vh;
+}
+
+.destimg5{
+    width: 300px;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.desttext5{
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
 @media (max-width: 1350px) {
     
     section{
@@ -388,12 +477,12 @@ button{
         width: 100%;
     }
 
-    #title {
+    .title {
         font-size: 50px;
         padding-top: 150px;
     }
 
-    #littleTitle {
+    .littleTitle {
         font-size: 12px;
     }
 
