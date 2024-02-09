@@ -128,7 +128,7 @@ nav ul li a:hover {
 section{
     margin-top: 120px;
     margin-left: 80px;
-    margin-left: 80px;
+    margin-right: 80px;
 }
 
 #signup{
@@ -151,7 +151,7 @@ section{
 p{
     font-family: 'Heebo', sans-serif;
     font-size: 20px;
-    text-align: justify;
+    text-align: justify;    
 }
 
 hr{
@@ -452,7 +452,7 @@ button{
 #travelContainer {
     text-align: center;
     margin-top: 100px;
-    margin-bottom: 100vh;
+    margin-bottom: 40vh;
 }
 
 .container {
@@ -461,11 +461,10 @@ button{
     background-color: #e0e0e0;
     border-radius: 10px;
     overflow: hidden; 
-    transition: height 0.5s ease; 
-    transition: background-color 0.5s ease;
     display: inline-block;
     margin: 10px;
     padding: 10px;
+    transition: height 1s ease;
 }
 
 .container p {
@@ -473,7 +472,7 @@ button{
 }
 
 .container:hover {
-    height: 250px;
+    height: 500px;
     background-color: #f0f0f0; 
 
 }
