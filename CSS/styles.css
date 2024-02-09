@@ -1,8 +1,11 @@
+html {
+    scroll-behavior: smooth;
+}
+
 @font-face{
     font-family: 'YourFont';
     src: url('TrumpGothicPro.woff');
 }
-
 
 body {
     margin: 0;
@@ -44,6 +47,16 @@ header{
     width: 100%;
     height: 90vh;
     background: url(../Images/travelcover.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed
+}
+
+#contactHeader{
+    width: 100%;
+    height: 100vh;
+    background: url(../Images/contactcoverr.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -477,6 +490,96 @@ button{
 
 }
 
+.contactTitle h3{
+    font-family: 'YourFont', sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding-top: 100px;
+    letter-spacing: 5px;
+    font-weight: 400;
+}
+
+.contactTitle p {
+    font-family: 'heebo', sans-serif;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.contactForm{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactForm form{
+    width: 50%;
+}
+
+.input-group{
+    margin-bottom: 30px;
+    position: relative;
+
+}
+
+.contactForm input, textarea{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #ffffff;
+    color: white;
+    background: transparent;
+    font-size: 15px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+
+}
+
+.contactForm label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: white;
+    cursor: text;
+    transition: .5s ease ;
+    
+}
+
+.contactForm button{
+    padding: 10px;
+    outline: none;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row .input-group{
+    flex-basis: 49%;
+}
+
+.contactSection input:hover ~ label,
+.contactSection textarea:hover ~ label,
+.contactSection input:valid ~ label,
+.contactSection textarea:valid ~ label {
+    top: -35px; /* Move label up when input is focused or has value */
+    font-size: 14px; /* Make label smaller when input is focused or has value */
+}
 
 @media (max-width: 1350px) {
     
@@ -544,7 +647,6 @@ button{
     .desttext, .desttext2, .desttext3, .desttext4, .desttext5{
         width: 100%;
     }
-
 
 
 }
