@@ -501,6 +501,13 @@ button{
     .littleHeading {
         font-size: 14px;
     }
+
+    .desttext, .desttext2, .desttext3, .desttext4, .desttext5{
+        width: 100%;
+    }
+
+
+
 }
 
 @media (max-width: 900px){
@@ -547,6 +554,12 @@ button{
 
     .footerText p{
         font-size: 16px;
+    }
+
+    .destimg img, .destimg2 img, .destimg3 img, .destimg4 img, .destimg5 img{
+        padding-left: 10px;
+        width: 500px;
+        height: 500px;
     }
 }
 
