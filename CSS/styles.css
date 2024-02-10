@@ -310,7 +310,7 @@ footer {
 }
 
 .footerSubscribe h3 {
-    color: #FF7900; /* Change to your preferred color */
+    color: #FF7900;
     font-family: 'heebo', sans-serif;
     font-size: 20px;
     letter-spacing: 3px;
@@ -536,7 +536,7 @@ button{
     color: white;
     background: transparent;
     font-size: 15px;
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    box-sizing: border-box;
 
 }
 
@@ -577,8 +577,8 @@ button{
 .contactSection textarea:hover ~ label,
 .contactSection input:valid ~ label,
 .contactSection textarea:valid ~ label {
-    top: -35px; /* Move label up when input is focused or has value */
-    font-size: 14px; /* Make label smaller when input is focused or has value */
+    top: -35px; 
+    font-size: 14px;
 }
 
 @media (max-width: 1350px) {
@@ -592,11 +592,15 @@ button{
         height: 70vh;
     }
 
-    .aboutheader {
+    #aboutheader {
         height: 60vh;
     }
 
-    .destCover{
+    #destCover{
+        height: 60vh;
+    }
+
+    #travelCover{
         height: 60vh;
     }
 
