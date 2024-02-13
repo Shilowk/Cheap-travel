@@ -516,10 +516,11 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 75%;
 }
 
 .contactForm form{
-    width: 50%;
+    width: 75%;
 }
 
 .input-group{
@@ -578,7 +579,21 @@ button{
 .contactSection input:valid ~ label,
 .contactSection textarea:valid ~ label {
     top: -35px; 
-    font-size: 14px;
+}
+
+.contact{
+    width: 20%;
+    height: 375px;
+    background-color: #0000000f;
+    margin-left: 50px;
+    margin-top: 50px;
+    padding-left: 20px;
+}
+
+.contactcontent{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 @media (max-width: 1350px) {
