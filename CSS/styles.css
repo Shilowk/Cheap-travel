@@ -491,11 +491,11 @@ button{
 }
 
 .contactForm{
-    padding-top: 50px;
+    padding-top: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 75%;
+    width: 100%;
 }
 
 .contactForm form{
