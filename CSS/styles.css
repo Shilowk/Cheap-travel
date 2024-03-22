@@ -602,13 +602,13 @@ button{
 }
 
 .travelImg{
-    width: 300px;
+    width: 200px;
     display: inline-block;
     padding-right: 20px;
 }
 
 .travelText{
-    width: 70%;
+    width: 50%;
     display: inline-block;
     vertical-align: top;
 
