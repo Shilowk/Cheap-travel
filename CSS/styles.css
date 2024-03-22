@@ -490,27 +490,6 @@ button{
 
 }
 
-.contactTitle h3{
-    font-family: 'YourFont', sans-serif;
-    font-size: 60px;
-    text-transform: uppercase;
-    text-align: center;
-    color: white;
-    margin: 0;
-    padding-top: 100px;
-    letter-spacing: 5px;
-    font-weight: 400;
-}
-
-.contactTitle p {
-    font-family: 'heebo', sans-serif;
-    font-size: 22px;
-    color: white;
-    text-align: center;
-    margin-left: 80px;
-    margin-right: 80px;
-}
-
 .contactForm{
     padding-top: 50px;
     display: flex;
@@ -590,12 +569,6 @@ button{
     padding-left: 20px;
 }
 
-.contactcontent{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
 .travelSec{
     width: 100%;
     margin-bottom: 5vh;
@@ -608,32 +581,6 @@ button{
 }
 
 .travelText{
-    width: 50%;
-    display: inline-block;
-    vertical-align: top;
-
-}
-
-.travelImg1{
-    width: 600px;
-    display: inline-block;
-    padding-right: 20px;
-}
-
-.travelText1{
-    width: 50%;
-    display: inline-block;
-    vertical-align: top;
-
-}
-
-.travelImg2{
-    width: 600px;
-    display: inline-block;
-    padding-right: 20px;
-}
-
-.travelText2{
     width: 50%;
     display: inline-block;
     vertical-align: top;
