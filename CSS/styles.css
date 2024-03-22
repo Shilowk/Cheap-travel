@@ -602,12 +602,38 @@ button{
 }
 
 .travelImg{
-    width: 200px;
+    width: 600px;
     display: inline-block;
     padding-right: 20px;
 }
 
 .travelText{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.travelImg1{
+    width: 600px;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.travelText1{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.travelImg2{
+    width: 600px;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.travelText2{
     width: 50%;
     display: inline-block;
     vertical-align: top;
